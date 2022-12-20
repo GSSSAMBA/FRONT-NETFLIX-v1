@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FRONT-NETFLIX-v1/static/css/main.1ac70b28.css",
+    "main.js": "/FRONT-NETFLIX-v1/static/js/main.592f104c.js",
+    "index.html": "/FRONT-NETFLIX-v1/index.html",
+    "main.1ac70b28.css.map": "/FRONT-NETFLIX-v1/static/css/main.1ac70b28.css.map",
+    "main.592f104c.js.map": "/FRONT-NETFLIX-v1/static/js/main.592f104c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ac70b28.css",
+    "static/js/main.592f104c.js"
+  ]
+}
