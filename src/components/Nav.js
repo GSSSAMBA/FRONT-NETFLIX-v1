@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import "./Nav.scss";
+import Netflixlogo from '../components/Netflixlogo.png';
+import avatar from '../components/avatar.png';
 
 const Nav = () => {
 
@@ -23,7 +25,8 @@ const Nav = () => {
     return (
         <div className={`nav ${navBlack || toggleMenu ? "nav--black" : "nav--transparent"} ${toggleMenu && "show"}`}>
             <button className='nav__burger' onClick={handleClick}><i className="fa-solid fa-bars"></i></button>
-            <img src='./images/Netflix-logo.png' className="nav__logo" alt="Netflix" />
+            {/* <img src='./images/Netflix-logo.png' className="nav__logo" alt="Netflix" /> */}
+            <img className='nav__logo' src={Netflixlogo} alt="Netflix" ></img>
             <nav className='nav__links'>
                 <a href='/' className='nav__link'>
                     Accueil
@@ -48,7 +51,8 @@ const Nav = () => {
                     <i className="fa-solid fa-bell"></i>
                 </a>
                 <a href='/' className='nav__action'>
-                    <img className='avatar1' src='./images/avatar.png' alt='' />
+                    {/* <img className='avatar1' src='./images/avatar.png' alt='' /> */}
+                    <img className='avatar1' src={avatar} alt="imgfond" ></img>
                 </a>
             </div>
         </div>
