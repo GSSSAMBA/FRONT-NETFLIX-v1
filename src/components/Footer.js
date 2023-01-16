@@ -7,44 +7,44 @@ const Footer = () => {
             <footer className='footer'>
                 <div className='container'>
                     <div className='"footer__socials'>
-                        <a href='/' className='footer__social'>
+                        <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git' className='footer__social'>
                             <i className="fa-brands fa-facebook"></i>
                         </a>
-                        <a href='/' className='footer__social'>
+                        <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git' className='footer__social'>
                             <i className="fa-brands fa-instagram"></i>
                         </a>
-                        <a href='/' className='footer__social'>
+                        <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git' className='footer__social'>
                             <i className="fa-brands fa-twitter"></i>
                         </a>
-                        <a href='/' className='footer__social'>
+                        <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git' className='footer__social'>
                             <i className="fa-brands fa-youtube"></i>
 
                         </a>
                     </div>
                     <ul className='footer__links'>
                         <li className='footer__link'>
-                            <a href='/'>Lien footer</a>
+                            <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git'>Lien footer</a>
                         </li>
                         <li className='footer__link'>
-                            <a href='/'>Lien footer</a>
+                            <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git'>Lien footer</a>
                         </li>
                         <li className='footer__link'>
-                            <a href='/'>Lien footer</a>
+                            <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git'>Lien footer</a>
                         </li>
                         <li className='footer__link'>
-                            <a href='/'>Lien footer</a>
+                            <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git'>Lien footer</a>
                         </li>
                         <li className='footer__link'>
-                            <a href='/'>Lien footer</a>
+                            <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git'>Lien footer</a>
                         </li>
                         <li className='footer__link'>
-                            <a href='/'>Lien footer</a>
+                            <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git'>Lien footer</a>
                         </li>
                         <li className='footer__link'>
-                            <a href='/'>Lien footer</a>
+                            <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git'>Lien footer</a>
                         </li>
                         <li className='footer__link'>
-                            <a href='/'>Lien footer</a>
+                            <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git'>Lien footer</a>
                         </li>
                     </ul>
                     <div className='footer__copy'>
