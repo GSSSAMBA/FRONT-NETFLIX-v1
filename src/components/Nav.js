@@ -1,6 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
 import "./Nav.scss";
+import Netflixlogo from '../images/Netflixlogo.png'
+import avatar from '../images/avatar.png'
+
 
 const Nav = () => {
 
@@ -23,7 +26,8 @@ const Nav = () => {
     return (
         <div className={`nav ${navBlack || toggleMenu ? "nav--black" : "nav--transparent"} ${toggleMenu && "show"}`}>
             <button className='nav__burger' onClick={handleClick}><i className="fa-solid fa-bars"></i></button>
-            <img src='./images/Netflix-logo.png' className="nav__logo" alt="Netflix" />
+            <img className='nav__logo' src={Netflixlogo} alt="Netflix" ></img>
+            {/* <img src='./images/Netflix-logo.png' className="nav__logo" alt="Netflix" /> */}
             <nav className='nav__links'>
                 <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git' className='nav__link'>
                     Accueil
@@ -48,7 +52,8 @@ const Nav = () => {
                     <i className="fa-solid fa-bell"></i>
                 </a>
                 <a href='https://github.com/GSSSAMBA/FRONT-NETFLIX-v1.git' className='nav__action'>
-                    <img className='avatar1' src='./images/avatar.png' alt='' />
+                    <img className='avatar1' src={avatar} alt="Netflix" ></img>
+                    {/* <img className='avatar1' src='./images/avatar.png' alt='' /> */}
                 </a>
             </div>
         </div>
